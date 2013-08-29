@@ -1,3 +1,8 @@
 name: Your New Jekyll Site
-markdown: redcarpet
+timezone: America/Chicago
+
 pygments: true
+
+permalink: /:title/
+
+markdown: redcarpet
