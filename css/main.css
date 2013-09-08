@@ -3,6 +3,9 @@
 /* Elements
 /*
 /*****************************************************************************/
+body {
+    font-family: 'Source Sans Pro', Calibri, sans-serif;
+}
 ol {
   counter-reset: section;
   list-style-type: none;
