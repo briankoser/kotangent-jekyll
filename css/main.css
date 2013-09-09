@@ -53,16 +53,25 @@ kbd {
     text-shadow: 0 1px 0 #fff;
     white-space: nowrap;
 }
-ol {
+ul {
+    list-style-type: square;
+}
+
+
+
+
+/*****************************************************************************/
+/*
+/* General Classes
+/*
+/*****************************************************************************/
+.outline {
   counter-reset: section;
   list-style-type: none;
 }
-li:before {
+.outline li:before {
   counter-increment: section;
   content: counters(section, ".") " ";
-}
-ul {
-    list-style-type: square;
 }
 
 /*****************************************************************************/
