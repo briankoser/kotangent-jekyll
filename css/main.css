@@ -5,13 +5,38 @@
 /*****************************************************************************/
 body {
     font-family: 'Source Sans Pro', Calibri, sans-serif;
+       -moz-font-feature-settings: "kern=1";
+       -moz-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+            font-feature-settings: "kern" 1;
+    font-size: 18px;
+    line-height: 1.35em;
+    max-width: 600px;
+
+     /*-ms-word-break: break-all;
+         word-break: break-all;
+
+     /* Non standard for webkit 
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;*/
 
     /* default jekyll styles */
-    font-size: 115%;
-    text-align: justify;
-    width: 42em;
     margin: 3em auto 2em;
-    line-height: 1.5em;
+}
+h1 {
+    font-size: 19px;
+    margin: 9px 0;
+}
+h2 {
+    font-size: 18.5px;
+    margin: 9px 0;
+}
+h1, h2, h3 {
+    font-weight: bold;
 }
 ol {
   counter-reset: section;
@@ -41,7 +66,6 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
@@ -77,7 +101,6 @@ ul.posts span {
 }
 
 .footer {
-  font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
