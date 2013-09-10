@@ -1,0 +1,64 @@
+body {
+    font-family: 'Source Sans Pro', Calibri, sans-serif;
+       -moz-font-feature-settings: "kern=1";
+       -moz-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+            font-feature-settings: "kern" 1;
+    font-size: 18px;
+    line-height: 1.35em;
+    max-width: 680px;
+
+     -ms-word-break: break-all;
+         word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+
+    /* default jekyll styles */
+    margin: 3em auto 2em;
+}
+h1 {
+    font-size: 19px;
+    margin: 9px 0;
+}
+h2 {
+    font-size: 18.5px;
+    margin: 9px 0;
+}
+h1, h2, h3 {
+    font-weight: bold;
+}
+kbd {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #ffffff inset;
+    color: #333;
+    display: inline-block;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0 .1em;
+    padding: .1em .6em;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+}
+ol {
+    list-style-type: decimal;
+}
+ol ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+ol ol li:before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+}
+ul {
+    list-style-type: square;
+}
