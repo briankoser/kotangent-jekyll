@@ -71,6 +71,27 @@ ul {
     list-style-type: square;
 }
 
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration: line-through;
+}
+
+
+nav ul {
+    list-style:none;
+}
+strong {
+    font-weight: bold;
+}
+
 
 /******************************************************************************
   Home
