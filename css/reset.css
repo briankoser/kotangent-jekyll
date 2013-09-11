@@ -89,16 +89,16 @@ hgroup,
 main,
 menu,
 nav,
-section{
-    display:block;
+section {
+    display: block;
 }
-body{
+body {
     line-height: 1;
 }
-blockquote, q{
+blockquote, q {
     quotes: none;
 }
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
 }
