@@ -7,6 +7,7 @@ dfn[title] {
     cursor: help;
 }
 body {
+    color: #444;
     font-family: 'Source Sans Pro', Calibri, sans-serif;
        -moz-font-feature-settings: "kern=1";
        -moz-font-feature-settings: "kern" 1;
@@ -17,7 +18,7 @@ body {
     -moz-hyphens: auto;
      -ms-hyphens: auto;
          hyphens: auto;
-    line-height: 1.35em;
+    line-height: 1.4em;
     max-width: 680px;
     -ms-word-break: break-all;
       /*word-break: break-all;*/
@@ -37,6 +38,7 @@ h2 {
     margin: 9px 0;
 }
 h1, h2, h3 {
+    color: #222;
     font-weight: bold;
 }
 hr {
