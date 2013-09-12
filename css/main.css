@@ -9,11 +9,9 @@ dfn[title] {
 body {
     color: #444;
     font-family: 'Source Sans Pro', Calibri, sans-serif;
-       -moz-font-feature-settings: "kern=1";
-       -moz-font-feature-settings: "kern" 1;
-    -webkit-font-feature-settings: "kern" 1;
-            font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "liga";
+   -moz-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
+-webkit-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
+        font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
     font-size: 18px;
     -moz-hyphens: auto;
      -ms-hyphens: auto;
@@ -99,6 +97,17 @@ ul {
 :focus{
     outline:?????;
 } */
+
+
+
+/******************************************************************************
+  Home
+******************************************************************************/
+.small-caps {
+   -moz-font-feature-settings: 'smcp';
+-webkit-font-feature-settings: 'smcp';
+        font-feature-settings: 'smcp';
+}
 
 
 
