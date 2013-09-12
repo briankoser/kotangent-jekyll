@@ -1,34 +1,32 @@
 /******************************************************************************
   Elements
 ******************************************************************************/
+abbr[title], 
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
 body {
     font-family: 'Source Sans Pro', Calibri, sans-serif;
-
        -moz-font-feature-settings: "kern=1";
        -moz-font-feature-settings: "kern" 1;
     -webkit-font-feature-settings: "kern" 1;
             font-feature-settings: "kern" 1;
-    
+    -moz-font-feature-settings: "liga";
     font-size: 18px;
-    line-height: 1.35em;
-    max-width: 680px;
-
-    -ms-word-break: break-all;
-        /*word-break: break-all;*/
-
-     /* Non standard for webkit */
-     word-break: break-word;
-
     -moz-hyphens: auto;
      -ms-hyphens: auto;
          hyphens: auto;
+    line-height: 1.35em;
+    max-width: 680px;
+    -ms-word-break: break-all;
+      /*word-break: break-all;*/
+        word-break: break-word; /* Non standard for webkit */
 
-    -moz-font-feature-settings: "liga";
-
-    text-rendering: optimizelegibility;
-
-    /* default jekyll styles */
-    margin: 3em auto 2em;
+    margin: 3em auto 2em; /* default jekyll styles */
+}
+del {
+    text-decoration: line-through;
 }
 h1 {
     font-size: 19px;
@@ -40,6 +38,24 @@ h2 {
 }
 h1, h2, h3 {
     font-weight: bold;
+}
+hr {
+    border: 0;   
+    border-top: 3px solid #006B9F;
+    display: block;
+    height: 4px;
+    margin: 1em 0;
+    padding: 0;
+}
+input, 
+select {
+    vertical-align: middle;
+}
+ins {
+    text-decoration: none;
+}
+ins:before {
+    content: "Update: ";
 }
 kbd {
     background-color: #f7f7f7;
@@ -56,6 +72,9 @@ kbd {
     text-shadow: 0 1px 0 #fff;
     white-space: nowrap;
 }
+nav ul {
+    list-style: none;
+}
 ol {
     list-style-type: decimal;
 }
@@ -67,6 +86,9 @@ ol ol li:before {
   counter-increment: section;
   content: counters(section, ".") " ";
 }
+strong {
+    font-weight: bold;
+}
 ul {
     list-style-type: square;
 }
@@ -76,39 +98,6 @@ ul {
     outline:?????;
 } */
 
-/* remember to highlight inserts somehow! */
-ins{
-    text-decoration:none;
-}
-del{
-    text-decoration: line-through;
-}
-
-
-nav ul {
-    list-style:none;
-}
-strong {
-    font-weight: bold;
-}
-
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
 
 
 /******************************************************************************
