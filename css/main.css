@@ -41,7 +41,7 @@ h1, h2, h3 {
 }
 hr {
     border: 0;   
-    border-top: 3px solid #006B9F;
+    border-top: 3px solid #006b9f;
     display: block;
     height: 4px;
     margin: 1em 0;
@@ -90,7 +90,19 @@ strong {
     font-weight: bold;
 }
 ul {
-    list-style-type: square;
+    padding-left: 15px;
+}
+ul li {
+    list-style: none;
+}
+ul li:before {
+    color: #006b9f;
+    content:'\25A0'; /* Unicode square */
+    display: block;
+    font-size: .67em;
+    left: -1em;
+    max-height: 0;
+    position: relative;
 }
 
 /* remember to define visible focus styles! 
@@ -172,7 +184,7 @@ ul.posts span {
 }
 
 .footer .contact a {
-  color: #8085C1;
+  color: #8085c1;
 }
 
 .footer .rss {
