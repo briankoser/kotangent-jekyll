@@ -1,8 +1,9 @@
 name: ϟ Kotangent - Brian Koser’s Blog
+permalink: /:title/
 timezone: America/Chicago
 
-pygments: true
-
-permalink: /:title/
+exclude: ['Rakefile', 'README.md']
 
 markdown: redcarpet
+
+pygments: true
