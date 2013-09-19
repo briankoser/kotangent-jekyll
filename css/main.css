@@ -1,6 +1,14 @@
 /******************************************************************************
   Elements
 ******************************************************************************/
+::-moz-selection {
+    background: #006b9f;
+    color: #fff;
+}
+::selection {
+    background-color: #006b9f;
+    color: #fff;
+}
 abbr[title], 
 dfn[title] {
     border-bottom: 1px dotted;
