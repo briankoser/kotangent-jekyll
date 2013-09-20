@@ -10,16 +10,12 @@ Ruby on Rails seems like a great framework. I had fun messing around with it, re
 
 This isn’t really a Ruby on Rails issue so much as a technology-that-I-don’t-know issue and a I-don’t-have-copious-amounts-of-free-time-to-learn-this-technology issue. I do have a life beyond programming, and at this point, I just want to start building this website. So, new requirements:
 
-<ol>
-	<li>Something I already know, or at least close, so I can actually get the project done
-	<li>Something new (to me at least)
-</ol>
+1. Something I already know, or at least close, so I can actually get the project done
+2. Something new (to me at least)
 
-Most importantly,
+    Most importantly,
 
-<ol start="3">
-	<li>Something the cool kids are using
-</ol>
+3. Something the cool kids are using
 
 Yes, 1 and 2 are contradictory, thank you for pointing that out. Before you get too smug, let me say that I found what I was looking for.
 
