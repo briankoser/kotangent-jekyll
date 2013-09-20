@@ -1,5 +1,5 @@
 name: ϟ Kotangent - Brian Koser’s Blog
-permalink: /:title/
+permalink: /blog/:title/
 timezone: America/Chicago
 
 exclude: ['Rakefile', 'README.md']
