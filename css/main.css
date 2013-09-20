@@ -46,6 +46,9 @@ body {
 del {
     text-decoration: line-through;
 }
+em {
+    font-weight: bold;
+}
 h1 {
     font-size: 19px;
     margin: 9px 0;
@@ -104,6 +107,9 @@ ol ol {
 ol ol li:before {
   counter-increment: section;
   content: counters(section, ".") " ";
+}
+p {
+    margin: 1em 0;
 }
 strong {
     font-weight: bold;
@@ -166,7 +172,7 @@ header h1.title {
 }
 
 header h1.title a {
-  color: #a00;
+  color: #006b9f;
 }
 
 header h1.title a:hover {
