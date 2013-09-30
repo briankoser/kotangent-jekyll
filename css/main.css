@@ -130,7 +130,20 @@ select {
 **********
   table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
 ******************************************************************************/
+table {
+    border-style: hidden;
+}
 
+th,
+td {
+    border: 1px solid #000;
+    padding: 4px;
+}
+
+th {
+    background-color: #006b9f;
+    color: #fff;
+}
 
 
 /******************************************************************************
