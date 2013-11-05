@@ -1,4 +1,5 @@
-name: ϟ Kotangent - Brian Koser’s Blog
+name: Kotangent
+subheading: Brian Koser’s Blog
 permalink: /blog/:title/
 timezone: America/Chicago
 
@@ -6,4 +7,4 @@ exclude: ['Kotangent.sln', 'Kotangent.v11.suo', 'LICENSE.txt', 'Rakefile', 'READ
 
 markdown: redcarpet
 
-pygments: true
+pygments: false
