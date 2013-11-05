@@ -34,6 +34,23 @@ body {
     */
 }
 
+header h1.title {
+  display: inline-block;
+}
+
+header h1 {
+    vertical-align: text-top;
+}
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
 nav ul {
     list-style: none;
 }
@@ -229,6 +246,11 @@ hr {
 /******************************************************************************
   CLASSES
 ******************************************************************************/
+.logo {
+    font-size: 4em;
+    
+}
+
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
@@ -268,17 +290,6 @@ footer .rss {
 
 footer .rss img {
   border: 0;
-}
-
-
-header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
 }
 
 header h1.title a {
