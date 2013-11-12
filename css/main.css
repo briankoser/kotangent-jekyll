@@ -6,16 +6,14 @@
 ******************************************************************************/
 body {
     color: #444;
-    font-family: 'Source Sans Pro', Calibri, sans-serif;
-    -webkit-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
-       -moz-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
-            font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'lnum';
-    font-size: 18px;
+    font: 18px/1.4 'Source Sans Pro', Calibri, sans-serif;
+    -webkit-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'onum', 'pnum';
+       -moz-font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'onum', 'pnum';
+            font-feature-settings: 'dlig' 0, 'frac', 'kern', 'liga', 'onum', 'pnum';
     -moz-hyphens: auto;
      -ms-hyphens: auto;
          hyphens: auto;
-    line-height: 1.4em;
-    max-width: 680px;
+    max-width: 680px; /* todo: try setting to 33em so changing font size will change width  */
     -ms-word-break: break-all;
       /*word-break: break-all;*/
         word-break: break-word; 
@@ -35,7 +33,7 @@ body {
 }
 
 header h1.title {
-  display: inline-block;
+    display: inline-block;
 }
 
 header h1 {
@@ -43,8 +41,8 @@ header h1 {
 }
 
 header a {
-  font-weight: bold;
-  text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 header {
@@ -56,10 +54,12 @@ nav ul {
 }
 
 p {
-    margin: 1em 0;
+    margin: 1em 0; /* todo: try setting to 1.4 (same as line height) [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]*/
 }
 
-
+blockquote {
+    margin: 1.5em;
+}
 
 /******************************************************************************
   HEADINGS
@@ -73,12 +73,12 @@ h1, h2, h3 {
 
 h1 {
     font-size: 19px;
-    margin: 9px 0;
+    margin: 9px 0; /* todo: set to harmonize with line height [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/] */
 }
 
 h2 {
     font-size: 18.5px;
-    margin: 9px 0;
+    margin: 9px 0; /* todo: set to harmonize with line height [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/] */
 }
 
 
@@ -111,13 +111,13 @@ ol {
 }
 
 ol ol {
-  counter-reset: section;
-  list-style-type: none;
+    counter-reset: section;
+    list-style-type: none;
 }
 
 ol ol li:before {
-  counter-increment: section;
-  content: counters(section, ".") " ";
+    counter-increment: section;
+    content: counters(section, ".") " ";
 }
 
 
@@ -176,6 +176,10 @@ strong {
 
 em {
     font-weight: bold;
+}
+
+abbr {
+    letter-spacing: 0.1em;
 }
 
 abbr[title], 
@@ -257,7 +261,12 @@ hr {
             font-feature-settings: 'smcp';
 }
 
-
+.uppercase {
+    -webkit-font-feature-settings: 'lnum' 1;
+       -moz-font-feature-settings: 'lnum' 1;
+            font-feature-settings: 'lnum' 1;
+    text-transform: uppercase;
+}
 
 
 
