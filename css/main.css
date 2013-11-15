@@ -126,7 +126,11 @@ ol ol li:before {
 *********
   canvas, object, embed, img, audio, video, track, map, area, iframe
 ******************************************************************************/
-
+img {
+  height: auto !important;
+  max-width: 100%;
+  width: auto !important;
+}
 
 
 /******************************************************************************
