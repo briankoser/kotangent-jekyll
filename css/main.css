@@ -236,17 +236,14 @@ hr {
     padding: 0;
 }
 
-::-moz-selection,
-::selection {
-    color: #fff;
-}
-
 ::-moz-selection {
     background: #006b9f;
+    color: #fff;
 }
 
 ::selection {
     background-color: #006b9f;
+    color: #fff;
 }
 
 
