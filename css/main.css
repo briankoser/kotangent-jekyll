@@ -256,6 +256,18 @@ hr {
     
 }
 
+.media {
+    margin: 10px;
+}
+.media, .bd {
+    overflow: hidden; 
+}
+.media img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
