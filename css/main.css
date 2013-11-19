@@ -15,15 +15,25 @@ body {
         -ms-hyphens: auto;
             hyphens: auto;
     max-width: 33em;
-    margin: 3em auto 2em; /* default jekyll styles */
+    margin: 0 auto 2em;
 }
 
-header h1.title {
-    display: inline-block;
+header {
+    margin-bottom: 2em;
+}
+
+header nav {
+    border-bottom: 4px solid #eee;
+    border-top: 4px solid #eee;
+    padding: 2px 4px;
 }
 
 header h1 {
     vertical-align: text-top;
+}
+
+header h1.title {
+    display: inline-block;
 }
 
 header a {
@@ -31,20 +41,16 @@ header a {
     text-decoration: none;
 }
 
-header {
-    margin-bottom: 2em;
-}
-
 nav ul {
     list-style: none;
 }
 
 p {
-    margin: 1em 0; /* todo: try setting to 1.4 (same as line height) [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]*/
+    margin: 1.4em 0; /* todo: try setting to 1.4 (same as line height) [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]*/
 }
 
 blockquote {
-    margin: 1.5em;
+    margin: 1.4em;
 }
 
 /******************************************************************************
@@ -237,17 +243,22 @@ hr {
 /******************************************************************************
   CLASSES
 ******************************************************************************/
+.author, .meta {
+    margin: 0;
+}
+
 .logo {
-    font-size: 4em;
-    
+    font-size: 4em;    
 }
 
 .media {
     margin: 10px;
 }
+
 .media, .bd {
     overflow: hidden; 
 }
+
 .media img {
     display: block;
     float: left;
@@ -273,7 +284,6 @@ hr {
 
 
 /* Working... */
-
 footer {
   color: #666;
   border-top: 4px solid #eee;
