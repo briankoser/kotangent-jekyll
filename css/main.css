@@ -374,6 +374,17 @@ ul.posts span {
   padding: 0 .2em;
 }
 
+/*Brandon Tilley's code CSS (http://brandontilley.com/)*/
+/* code {*/
+/*    background-color: #F8F8FF;*/
+/*    border: 1px solid #DEDEDE;*/
+/*    display: inline-block;*/
+/*    font-size: 12pt;*/
+/*    margin: 0;*/
+/*    padding-left: 3px;*/
+/*    padding-right: 3px;*/
+/*}*/
+
 .post pre code {
   border: none;
 }
