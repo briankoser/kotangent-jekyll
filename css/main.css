@@ -10,10 +10,6 @@ body {
     -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
        -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
             font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
-    -webkit-hyphens: auto;
-       -moz-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
     max-width: 33em;
     margin: 0 auto 2em;
 }
@@ -43,6 +39,13 @@ header a {
 
 nav ul {
     list-style: none;
+}
+
+main {
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 p {
