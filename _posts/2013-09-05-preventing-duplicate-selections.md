@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Validation Contemplation"
+title:  "Preventing Duplicate Selections with C# and jQuery Validation"
 tags: asp.net c#
 ---
 
