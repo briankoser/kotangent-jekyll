@@ -151,6 +151,10 @@ select {
     vertical-align: middle;
 }
 
+textarea {
+    resize: vertical;
+}
+
 /* todo: set :hover and :focus */
 
 /******************************************************************************
