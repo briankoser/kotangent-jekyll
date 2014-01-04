@@ -151,6 +151,10 @@ select {
     vertical-align: middle;
 }
 
+textarea {
+    resize: vertical;
+}
+
 /* todo: set :hover and :focus */
 
 /******************************************************************************
@@ -223,7 +227,7 @@ kbd {
     color: #333;
     display: inline-block;
     font-size: 11px;
-    font-family: Helvetica, sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
     line-height: 1.4;
     margin: 0 .1em;
     padding: .1em .6em;
@@ -240,9 +244,9 @@ kbd {
 ******************************************************************************/
 hr {
     border: 0;
-    border-top: 3px solid #006b9f;
+    border-top: 1px solid #006b9f;
     display: block;
-    height: 4px;
+    height: 1px;
     margin: 1em 0;
     padding: 0;
 }
