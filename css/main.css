@@ -279,8 +279,9 @@ hr {
 /******************************************************************************
   CLASSES
 ******************************************************************************/
-.author, .meta {
+.author {
     margin: 0;
+    display: none; /* todo: remove when I figure out how Google authorship stuff works */
 }
 
 .logo {
