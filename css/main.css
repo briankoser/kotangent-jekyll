@@ -11,11 +11,28 @@ body {
        -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
             font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
     max-width: 33em;
-    margin: 0 auto 2em;
+    margin: 0 auto 1.4em;
 }
 
-header {
-    margin-bottom: 2em;
+header,
+p,
+pre,
+figure, 
+hgroup,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dd,
+fieldset,
+table,
+hr,
+.media {
+    margin-bottom: 1.4rem;
 }
 
 header nav {
@@ -56,32 +73,28 @@ main {
           hyphens: auto;
 }
 
-p {
-    margin: 1.4em 0; /* todo: try setting to 1.4 (same as line height) [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/]*/
+blockquote {
+    margin: 1.4rem;
 }
 
-blockquote {
-    margin: 1.4em;
-}
+
 
 /******************************************************************************
   HEADINGS
 ************
   hgroup, h1, h2, h3, h4, h5, h6
 ******************************************************************************/
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: bold;
 }
 
 h1 {
     font-size: 19px;
-    margin: 9px 0; /* todo: set to harmonize with line height [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/] */
 }
 
 h2 {
     font-size: 18.5px;
-    margin: 9px 0; /* todo: set to harmonize with line height [http://webtypography.net/Rhythm_and_Proportion/Vertical_Motion/2.2.2/] */
 }
 
 
@@ -110,7 +123,7 @@ ul li:before {
 }
 
 ul ul li:before {
-  content: '\25A1'; /* Unicode white square */
+    content: '\25A1'; /* Unicode white square */
 }
 
 ol {
@@ -134,9 +147,9 @@ ol ol li:before {
   canvas, object, embed, img, audio, video, track, map, area, iframe
 ******************************************************************************/
 img {
-  height: auto !important;
-  max-width: 100%;
-  width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    width: auto !important;
 }
 
 
@@ -247,7 +260,7 @@ hr {
     border-top: 1px solid #006b9f;
     display: block;
     height: 1px;
-    margin: 1em 0;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -272,10 +285,6 @@ hr {
 
 .logo {
     font-size: 4em;    
-}
-
-.media {
-    margin: 10px;
 }
 
 .media, .bd {
