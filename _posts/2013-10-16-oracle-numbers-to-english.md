@@ -10,9 +10,7 @@ You can also spell numbers out in English, although I’m not sure if that was a
 
 The magic that makes it all happen is the [Julian date](http://en.wikipedia.org/wiki/Julian_calendar).
 
-    SELECT to_char(to_date(4321, 'J'), 'J') 
-      FROM dual; 
-    -- result: 0004321
+{% gist 8260183 JulianDate %}
 
 This code converts the number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is the number again.
 
@@ -24,9 +22,7 @@ Once we have our date, we’ll convert it to the string we want:
 
 ##Spelled Out
 
-    SELECT to_char(to_date(4321, 'J'), 'Jsp') 
-      FROM dual;
-    -- result: Four Thousand Three Hundred Twenty-One
+{% gist 8260183 NumberToSpelled %}
 
 The format specifier, “Jsp”, can be broken down into two parts:
 
@@ -37,9 +33,7 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 ##Ordinal
 
-    SELECT to_char(to_date(4321, 'J'), 'fmJth') 
-      FROM dual; 
-    -- result: 4321st
+{% gist 8260183 NumberToOrdinal %}
 
  - “fm” removes leading zeroes
  - “J” gives us a Julian date
@@ -48,17 +42,10 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 ##Spelled-Out Ordinals
 
-    SELECT to_char(to_date(4321, 'J'), 'JspTH') 
-      FROM dual; 
-    -- Result: Four Thousand Three Hundred Twenty-First
+{% gist 8260183 NumberToSpelledOrdinal %}
 
 And if we combine the two, we get spelled-out ordinals.
 
 So get out there and spell some numbers. I’m sure you’re excited to take advantage of your new-found knowledge; if you can’t think of a use for this code, why not add the below to a report?
 
-    SELECT CASE 
-           WHEN trunc(SYSDATE) = to_date('04-01', 'MM-DD') THEN 
-             to_char(to_date(reportcount, 'J'), 'Jsp') 
-           ELSE reportcount 
-           END AS reportcount 
-      FROM ... 
+{% gist 8260183 AprilFools %}

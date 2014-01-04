@@ -6,27 +6,15 @@ tags: programming oracle pl/sql
 
 When I first started writing Oracle PL/SQL, I tried to define function and procedure parameters in the same way I defined SQL table columns:
 
-    PROCEDURE MyFunction
-    (
-      Param1 NUMBER(2),
-      Param2 VARCHAR2(32)
-    );
+{% gist 8260111 PLSQLDeclaration1 %}
 
 Of course, you get a compile-time error if you try to specify precision for parameters. Instead you have to do:
 
-    PROCEDURE MyFunction
-    (
-      Param1 NUMBER,
-	  Param2 VARCHAR2
-	);
+{% gist 8260111 PLSQLDeclaration2 %}
 
 Ah, but you can also define parameter types in terms of tables:
 
-	PROCEDURE MyFunction
-	(
-	  Param1 myschema.mytable.column1%TYPE,
-	  Param2 myschema.mytable.column2%TYPE
-	);
+{% gist 8260111 PLSQLDeclaration3 %}
 
 And I assumed this enforced the precision of the table’s columns, if it had any. 
 
