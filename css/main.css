@@ -44,8 +44,9 @@ header h1 {
     vertical-align: text-top;
 }
 
-header h1.title {
+header h1.site-title {
     display: inline-block;
+    margin-bottom: 0;
 }
 
 header a {
@@ -296,10 +297,18 @@ hr {
     margin-right: 10px;
 }
 
+.post-title {
+    margin: 0;
+}
+
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
             font-feature-settings: 'smcp';
+}
+
+.site-title {
+    font-size: 2rem;
 }
 
 .uppercase {
@@ -341,11 +350,11 @@ footer .rss img {
   border: 0;
 }
 
-header h1.title a {
+header h1.site-title a {
   color: #006b9f;
 }
 
-header h1.title a:hover {
+header h1.site-title a:hover {
   color: #000;
 }
 
