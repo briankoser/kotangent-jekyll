@@ -4,7 +4,7 @@ title:  "Oracle Numbers to English"
 tags: programming oracle
 ---
 
-Oracle has built-in methods for a lot of things. Arabic to Roman numeral converter? Check. [other obscure function]? Sure. Generating ASCII-art llamas from the statistics gathered on crossedition triggers? Well, maybe in 13c.
+Oracle has built-in methods for a lot of things. Converting from Arabic to Roman numerals? [Check](http://docs.oracle.com/cd/E16655_01/server.121/e17209/sql_elements004.htm#r15c1-t61). Generating a byte string containing all valid 1-byte encodings between two given bytes? [Sure](http://docs.oracle.com/cd/E16655_01/appdev.121/e17602/u_raw.htm#ARPLS71430). Generating ASCII-art llamas from the statistics gathered on crossedition triggers? Well, maybe in 13c.
 
 You can also spell numbers out in English, although I’m not sure if that was an intended use of the functions we’ll be using today. Nevertheless.
 
@@ -14,9 +14,9 @@ The magic that makes it all happen is the [Julian date](http://en.wikipedia.org/
       FROM dual; 
     -- result: 0004321
 
-This code converts our number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is our number again.
+This code converts the number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is the number again.
 
-Why are we converting our number to a date and then to a string? Well, `to_char(string, format)` doesn’t accept the format specifiers we’ll need to use; the date version, `to_char(date, format)`, does accept those specifiers, so we first convert to a date before converting to string. And Julian dates are easier to work with in this case, because they are stored as a number of days since January 1, 4712 B.C. This allows us to easily go from number to date to string, as you saw above.
+Why convert the number to a date before converting to a string? Well, `to_char(string, format)` doesn’t accept the format specifiers we’ll need to use; the date version, `to_char(date, format)`, does accept those specifiers, so we first convert to a date before converting to string. And in this case Julian dates are easier to work with because they are stored as a number of days since January 1, 4712 B.C. This allows us to easily go from number to date to string, as you saw above.
 
 Caveat: for a number to be converted to a Julian date it will need to be between 1 and 5,373,484 (the highest valid number will have increased by the time you read this). The highest valid number is the number of days since January 1, 4712 B.C. If you need to handle 0, negatives, decimals, or numbers larger than about 5 million, you’ll need to write additional code.
 
