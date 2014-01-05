@@ -10,7 +10,7 @@ You can also spell numbers out in English, although I’m not sure if that was a
 
 The magic that makes it all happen is the [Julian date](http://en.wikipedia.org/wiki/Julian_calendar).
 
-{% gist 8260183 JulianDate %}
+{% gist 8260183 JulianDate.sql %}
 
 This code converts the number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is the number again.
 
@@ -22,7 +22,7 @@ Once we have our date, we’ll convert it to the string we want:
 
 ##Spelled Out
 
-{% gist 8260183 NumberToSpelled %}
+{% gist 8260183 NumberToSpelled.sql %}
 
 The format specifier, “Jsp”, can be broken down into two parts:
 
@@ -33,7 +33,7 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 ##Ordinal
 
-{% gist 8260183 NumberToOrdinal %}
+{% gist 8260183 NumberToOrdinal.sql %}
 
  - “fm” removes leading zeroes
  - “J” gives us a Julian date
@@ -42,10 +42,10 @@ You can also use “JSP” (gives you the string in all caps) and “jsp” (giv
 
 ##Spelled-Out Ordinals
 
-{% gist 8260183 NumberToSpelledOrdinal %}
+{% gist 8260183 NumberToSpelledOrdinal.sql %}
 
 And if we combine the two, we get spelled-out ordinals.
 
 So get out there and spell some numbers. I’m sure you’re excited to take advantage of your new-found knowledge; if you can’t think of a use for this code, why not add the below to a report?
 
-{% gist 8260183 AprilFools %}
+{% gist 8260183 AprilFools.sql %}
