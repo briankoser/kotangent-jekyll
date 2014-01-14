@@ -1,6 +1,7 @@
 name: Kotangent
 subheading: Brian Koser’s Blog
-permalink: /blog/:title/
+permalink: '/blog/:title/'
+paginate_path: '/blog/page:num/'
 timezone: America/Chicago
 
 exclude: ['Kotangent.sln', 'Kotangent.v11.suo', 'LICENSE.txt', 'Rakefile', 'README.md']
