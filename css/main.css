@@ -188,7 +188,7 @@ table {
 
 th,
 td {
-    border: 1px solid #000;
+    border: 1px solid #333;
     padding: .25rem;
 }
 
@@ -325,6 +325,10 @@ hr {
     margin-right: 10px;
 }
 
+.post-date {
+    color: #aaa;
+}
+
 .post-title {
     margin: 0;
 }
@@ -423,9 +427,7 @@ ul.posts span {
   font-size: 80%;
 }
 
-.meta {
-  color: #aaa;
-}
+
 
 /******************************************************************************
   POSTS
