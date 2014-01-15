@@ -36,7 +36,6 @@ hr,
 }
 
 header nav {
-    border-top: 4px solid #eee;
     padding: 2px 4px;
 }
 
@@ -346,6 +345,10 @@ hr {
   color: #fff;
 }
 
+.top-border {
+    border-top: 3px solid #333;
+}
+
 .uppercase {
     -webkit-font-feature-settings: 'lnum' 1;
        -moz-font-feature-settings: 'lnum' 1;
@@ -360,8 +363,7 @@ hr {
 
 /* Working... */
 footer {
-  color: #666;
-  border-top: 4px solid #eee;
+  color: #aaa;
   margin-top: 2em;
   overflow: hidden;
 }
