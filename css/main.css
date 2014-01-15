@@ -1,15 +1,18 @@
 /******************************************************************************
   SECTIONING AND STRUCTURING
 ******************************
-  body, header, footer, nav, main, article, aside, section, p, pre,
+  html, body, header, footer, nav, main, article, aside, section, p, pre,
   blockquote, figure, figcaption, address, summary, details, div
 ******************************************************************************/
-body {
+html {
     color: #444;
     font: 18px/1.4 'Source Sans Pro', Calibri, sans-serif;
     -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
        -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
             font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
+}
+
+body {
     max-width: 33em;
     margin: 0 auto 1.4em;
 }
