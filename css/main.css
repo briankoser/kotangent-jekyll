@@ -19,7 +19,7 @@ p,
 pre,
 figure, 
 hgroup,
-h1,
+h1,s
 h2,
 h3,
 h4,
@@ -72,6 +72,10 @@ main {
           hyphens: auto;
 }
 
+pre, code, samp, kbd { 
+  font-family: monospace, sans-serif; 
+}
+
 pre code {
     display: inline-block;
     overflow-x: auto;
@@ -82,7 +86,6 @@ pre code {
 blockquote {
     margin: 1.4rem;
 }
-
 
 
 /******************************************************************************
