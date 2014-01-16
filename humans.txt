@@ -1,0 +1,18 @@
+---
+---
+
+The HTML and CSS for this site were hand-written by Brian Koser. Not bad for a man in his jim jams.
+
+/* CONTACT */
+E-mail: blog@briankoser.com
+Twitter: @kotangentdev
+
+/* SITE */
+Last update: {{site.time}}
+Components: Jekyll, HTML5, hyphenator.js
+Software: Github for Windows, Visual Studio, Notepad++, MarkdownPad2
+Webhost: KVCHost.com
+
+/* THANKS */
+Matthew Butterick and his book Practical Typography (practicaltypography.com) are the reason that this site looks decent.
+And Scott Hanselman and Jeff Atwood inspired me to blog in the first place.
