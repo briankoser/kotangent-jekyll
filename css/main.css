@@ -374,7 +374,7 @@ hr {
 /* Working... */
 footer {
   color: #aaa;
-  margin-top: 2em;
+  margin-top: 2em; /* remove; only use margin-bottom */
   overflow: hidden;
 }
 
@@ -388,7 +388,7 @@ footer .contact a {
 }
 
 footer .rss {
-  margin-top: 1.1em;
+  margin-top: 1.1em; /* remove; only use margin-bottom */
   margin-right: -.2em;
   float: right;
 }
