@@ -69,14 +69,14 @@ nav ul {
 }
 
 main {
-  -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
 }
 
 pre, code, samp, kbd { 
-  font-family: monospace, sans-serif; 
+    font-family: monospace, sans-serif; 
 }
 
 pre code {
@@ -350,9 +350,9 @@ hr {
 }
 
 .terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #fff;
+    border: 1px solid #000;
+    background-color: #333;
+    color: #fff;
 }
 
 .top-border {
@@ -373,45 +373,45 @@ hr {
 
 /* Working... */
 footer {
-  color: #aaa;
-  margin-top: 2em; /* remove; only use margin-bottom */
-  overflow: hidden;
+    color: #aaa;
+    margin-top: 2em; /* remove; only use margin-bottom */
+    overflow: hidden;
 }
 
 footer .contact {
-  float: left;
-  margin-right: 3em;
+    float: left;
+    margin-right: 3em;
 }
 
 footer .contact a {
-  color: #8085c1;
+    color: #8085c1;
 }
 
 footer .rss {
-  margin-top: 1.1em; /* remove; only use margin-bottom */
-  margin-right: -.2em;
-  float: right;
+    margin-top: 1.1em; /* remove; only use margin-bottom */
+    margin-right: -.2em;
+    float: right;
 }
 
 footer .rss img {
-  border: 0;
+    border: 0;
 }
 
 header h1.site-title a {
-  color: #006b9f;
+    color: #006b9f;
 }
 
 header h1.site-title a:hover {
-  color: #000;
+    color: #000;
 }
 
 header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+    color: #aaa;
+    margin-left: 1em;
 }
 
 header a.extra:hover {
-  color: #000;
+    color: #000;
 }
 
 
@@ -420,17 +420,17 @@ header a.extra:hover {
   HOME
 ******************************************************************************/
 ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+    list-style-type: none;
+    margin-bottom: 2em;
 }
 
 ul.posts li {
-  line-height: 1.75em;
+    line-height: 1.75em;
 }
 
 ul.posts span {
-  color: #aaa;
-  font-size: 80%;
+    color: #aaa;
+    font-size: 80%;
 }
 
 
@@ -441,6 +441,6 @@ ul.posts span {
 
 
 .post ul, .post ol {
-  margin-left: 1.35em;
+    margin-left: 1.35em;
 }
 
