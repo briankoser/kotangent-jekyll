@@ -205,6 +205,9 @@ th {
 
 td {
     background-color: #eee;
+    -webkit-font-feature-settings: 'tnum';
+       -moz-font-feature-settings: 'tnum';
+            font-feature-settings: 'tnum';
 }
 
 /******************************************************************************
