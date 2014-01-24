@@ -49,3 +49,4 @@ And if we combine the two, we get spelled-out ordinals.
 So get out there and spell some numbers. I’m sure you’re excited to take advantage of your new-found knowledge; if you can’t think of a use for this code, why not add the below to a report?
 
 {% gist 8260183 AprilFools.sql %}
+∎

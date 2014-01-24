@@ -23,4 +23,4 @@ Yes, 1 and 2 are contradictory, thank you for pointing that out. Before you get 
 
 Behold, ASP.NET MVC. Careful, don’t let the sheer power of all those capital letters overwhelm you. For me, ASP.NET MVC is sort of a compromise between learning something completely new, like Rails, and using something I already know, like ASP.NET Webforms.
 
-So I’ll be using ASP.NET MVC with Azure. I’ll still probably use Ember as well. We’ll see how far I get this time before deciding to switch to node.js or meteor or…
+So I’ll be using ASP.NET MVC with Azure. I’ll still probably use Ember as well. We’ll see how far I get this time before deciding to switch to node.js or meteor or… ∎

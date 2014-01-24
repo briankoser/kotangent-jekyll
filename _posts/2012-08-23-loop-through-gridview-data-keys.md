@@ -8,4 +8,4 @@ Today I was adding an “Export to Excel” option to a Gridview. I wanted to ma
 
 {% gist 8260040 %}
 
-I was thinking I would need LINQ and casting and such…and it turns out you can just loop through a Gridview’s data keys.
+I was thinking I would need LINQ and casting and such…and it turns out you can just loop through a Gridview’s data keys. ∎

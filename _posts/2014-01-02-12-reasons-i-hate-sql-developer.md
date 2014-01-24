@@ -47,4 +47,4 @@ Code templates are SQL Developer’s brand of text expansion. My main annoyance 
 ##12. Lack of column mode##
 Nowadays I consider this a must-have text editor feature. Visual Studio and Notepad++ have a basic support of the feature, although neither compares to Sublime Text’s superb column mode. Even Geany has a column mode. Why doesn’t SQL Developer have column mode?
 
-In the end, SQL Developer does the job, and perhaps these points are all quibbles. I still think that there’s no reason that a seven-year old program (albeit a free program) should have so many usability problems.
+In the end, SQL Developer does the job, and perhaps these points are all quibbles. I still think that there’s no reason that a seven-year old program (albeit a free program) should have so many usability problems. ∎

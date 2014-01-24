@@ -34,4 +34,4 @@ it run down the drain, sure, but actually throw it out?)
 
 Anyway, a week or so after I settled for sure on Ruby/Rails/Ember, [Discourse](http://www.discourse.org/) launched. And what do you know, Jeff Atwood 
 et al. chose the same tech I had. That's good enough confirmation for me. Yes, Ruby on Rails is not a panacea; in our lucid moments, I think we all 
-know that nothing is. But it’s a solid framework, it will work for me, I’m going to learn a lot, and—most importantly—it’s going to be fun.
+know that nothing is. But it’s a solid framework, it will work for me, I’m going to learn a lot, and—most importantly—it’s going to be fun. ∎

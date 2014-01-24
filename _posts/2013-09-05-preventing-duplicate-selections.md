@@ -33,4 +33,4 @@ Boom. And in jQuery:
 
 {% gist 8260138 PreventingDuplicates.js %}
 
-I still don’t like writing validation, but…it has its interesting moments.
+I still don’t like writing validation, but…it has its interesting moments. ∎

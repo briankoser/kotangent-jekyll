@@ -22,4 +22,4 @@ Never assume.
 
 The parameters will not enforce the precision of the columns they are based on. 
 
-Why doesn’t Oracle allow you to specify precision for your parameters? I assume (ha ha) that there’s an actual reason, but I don’t know enough to guess what that reason might be.
+Why doesn’t Oracle allow you to specify precision for your parameters? I assume (ha ha) that there’s an actual reason, but I don’t know enough to guess what that reason might be. ∎
