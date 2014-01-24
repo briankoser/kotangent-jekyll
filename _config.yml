@@ -1,11 +1,16 @@
-name: Kotangent
-subheading: Brian Koser’s Blog
+name: 'Kotangent'
+url: 'briankoser.com'
+author: 'Brian Koser'
+
+subheading: 'Brian Koser’s Blog'
+timezone: 'America/Chicago'
+
 permalink: '/blog/:title/'
+paginate: 10
 paginate_path: '/blog/page:num/'
-timezone: America/Chicago
 
 exclude: ['Kotangent.sln', 'Kotangent.v11.suo', 'LICENSE.txt', 'Rakefile', 'README.md']
 
-markdown: redcarpet
+markdown: 'redcarpet'
 
 pygments: false
