@@ -1,4 +1,4 @@
-/******************************************************************************
+﻿/******************************************************************************
   SECTIONING AND STRUCTURING
 ******************************
   html, body, header, footer, nav, main, article, aside, section, p, pre,
@@ -38,23 +38,32 @@ hr,
     margin-bottom: 1.4rem;
 }
 
+header {
+    font-weight: bold;
+    position: relative;
+    vertical-align: text-top;
+}
+
 header nav {
+    margin-top: -0.333rem;
     padding: 2px 4px;
 }
 
 header h1 {
-    vertical-align: text-top;
-}
-
-header h1.site-title {
     display: inline-block;
-    margin-bottom: 0;
+    font-size: 3.5rem;
+    margin-bottom: -1.222rem;
 }
 
 header a {
+    color: #006b9f;
     font-weight: bold;
     text-decoration: none;
 }
+
+header a:hover {
+    color: #000;
+} 
 
 /*Possible nav styles from trentwalton.com*/
 /*nav ul{margin:0;width: 100%;}*/
@@ -321,8 +330,12 @@ hr {
 }
 
 .logo {
-    font-size: 4em;    
+    bottom: 1.167rem;
+    font-size: 3.5rem;
+    left: -2rem;
+    position: absolute;
 }
+
 
 .media, .bd {
     overflow: hidden; 
@@ -342,10 +355,6 @@ hr {
     margin: 0;
 }
 
-.site-title {
-    font-size: 2rem;
-}
-
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
@@ -359,7 +368,7 @@ hr {
 }
 
 .top-border {
-    border-top: 3px solid #333;
+    border-top: .2rem solid #333;
 }
 
 .uppercase {
@@ -398,14 +407,6 @@ footer .rss {
 
 footer .rss img {
     border: 0;
-}
-
-header h1.site-title a {
-    color: #006b9f;
-}
-
-header h1.site-title a:hover {
-    color: #000;
 }
 
 header a.extra {
