@@ -46,7 +46,7 @@ header {
 
 header nav {
     margin-top: -0.333rem;
-    padding: 2px 4px;
+    padding: .333rem .222rem;
 }
 
 header h1 {
@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 19px;
+    margin-bottom: 6.2px;
 }
 
 h2 {
@@ -331,7 +332,7 @@ hr {
 }
 
 .logo {
-    bottom: 1.167rem;
+    bottom: 1.611rem;
     font-size: 3.5rem;
     left: -2rem;
     position: absolute;
