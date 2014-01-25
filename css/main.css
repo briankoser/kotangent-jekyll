@@ -116,6 +116,7 @@ h1 {
 
 h2 {
     font-size: 18.5px;
+    margin-bottom: 6.7px;
 }
 
 
@@ -345,6 +346,10 @@ hr {
     display: block;
     float: left;
     margin-right: 10px;
+}
+
+.post {
+    margin-bottom: 2rem;
 }
 
 .post-date {
