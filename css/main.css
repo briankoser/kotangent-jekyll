@@ -101,6 +101,12 @@ blockquote {
     margin: 1.4rem;
 }
 
+blockquote mark, 
+q mark {
+    font-style: italic;
+}
+
+
 
 /******************************************************************************
   HEADINGS
