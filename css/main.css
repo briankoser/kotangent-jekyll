@@ -148,7 +148,7 @@ ul li {
     list-style: none;
 }
 
-ul li:before {
+ul li::before {
     color: #006b9f;
     content: '\25A0'; /* Unicode black square */
     display: block;
@@ -158,7 +158,7 @@ ul li:before {
     position: relative;
 }
 
-ul ul li:before {
+ul ul li::before {
     content: '\25A1'; /* Unicode white square */
 }
 
@@ -171,7 +171,7 @@ ol ol {
     list-style-type: none;
 }
 
-ol ol li:before {
+ol ol li::before {
     counter-increment: section;
     content: counters(section, ".") " ";
 }
