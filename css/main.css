@@ -267,6 +267,15 @@ ins {
     text-decoration: none;
 }
 
+ins::before {
+    content: ' (Update) ';
+    font-style: italic;
+}
+
+ins[datetime]::before {
+    content: ' (Update ' attr(datetime) ') ';
+}
+
 code,
 var,
 .line-numbers,
