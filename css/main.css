@@ -261,19 +261,42 @@ dfn[title] {
 
 del {
     text-decoration: line-through;
+    -webkit-text-decoration-color: #aaa;
+       -moz-text-decoration-color: #aaa;
+            text-decoration-color: #aaa;
+}
+
+del.edit-block {
+    border-left-color: #91081f;
+    color: #aaa;
+    text-decoration: none;
 }
 
 ins {
+    border-bottom: 1px solid #ccc;
+    color: #388807;
     text-decoration: none;
 }
 
 ins::before {
     content: ' (Update) ';
+    display: inline;
     font-style: italic;
 }
 
 ins[datetime]::before {
     content: ' (Update ' attr(datetime) ') ';
+}
+
+ins p {
+    display: inline;
+}
+
+ins.edit-block {
+    border-bottom: none;
+    border-left-color: #47ad09;
+    color: #444;
+    margin-bottom: 1.4rem;
 }
 
 code,
@@ -341,6 +364,13 @@ hr {
 .author {
     margin: 0;
     display: none; /* todo: remove when I figure out how Google authorship stuff works */
+}
+
+.edit-block {
+    border-left: 0.5rem solid;
+    display: block;
+    margin-left: -1rem;
+    padding-left: 0.5rem;
 }
 
 .gist table {
