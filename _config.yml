@@ -6,11 +6,16 @@ subheading: 'Brian Koser’s Blog'
 timezone: 'America/Chicago'
 
 permalink: '/blog/:title/'
-paginate: 10
-paginate_path: '/blog/page:num/'
+# paginate: 10
+# paginate_path: '/blog/page:num/'
 
 exclude: ['Kotangent.sln', 'Kotangent.v11.suo', 'LICENSE.txt', 'Rakefile', 'README.md']
 
 markdown: 'redcarpet'
 
 pygments: false
+
+ftp_host: 'ftp.briankoser.com'
+ftp_dir: '/'
+ftp_passive: false
+ftp_port: 21
