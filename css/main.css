@@ -1,4 +1,23 @@
 ﻿/******************************************************************************
+  ALL
+******************************
+  *, @viewport
+******************************************************************************/
+*, *:before, *:after {
+       -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+            box-sizing: border-box;
+}
+
+@-ms-viewport { 
+    width: device-width; 
+}
+
+@viewport { 
+    width: device-width; 
+}
+
+/******************************************************************************
   SECTIONING AND STRUCTURING
 ******************************
   html, body, header, footer, nav, main, article, aside, section, p, pre,
@@ -35,7 +54,7 @@ fieldset,
 table,
 hr,
 .media {
-    margin-bottom: 1.4rem;
+    margin: 0 0 1.4rem 0;
 }
 
 header {
@@ -101,9 +120,18 @@ blockquote {
     margin: 1.4rem;
 }
 
+blockquote,
+q {
+    quotes: none;
+}
+
 blockquote mark, 
 q mark {
     font-style: italic;
+}
+
+address {
+    font-style: normal;
 }
 
 
@@ -212,7 +240,6 @@ textarea {
   table, caption, colgroup, col, thead, tfoot, tbody, tr, th, td
 ******************************************************************************/
 table {
-    border-collapse: collapse;
     border-style: hidden;
 }
 
@@ -246,6 +273,7 @@ strong {
 }
 
 em {
+    font-style: normal;
     font-weight: bold;
 }
 
