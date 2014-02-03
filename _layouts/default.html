@@ -6,6 +6,8 @@
     
     <title>{{ page.title }}</title>
     <link rel="canonical" href="{{ page.url }}">
+    <link rel="prev" href="{{ page.next.url }}" />
+    <link rel="next" href="{{ page.previous.url }}" />
 
     <meta name="description" content="The programming blog of Brian Koser">
     <meta name="viewport" content="width=device-width, initial-scale=1">
