@@ -37,9 +37,11 @@ body {
 }
 
 header,
+main,
 p,
 pre,
-figure, 
+figure,
+address,
 hgroup,
 h1,
 h2,
@@ -101,6 +103,11 @@ main {
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
+}
+
+main nav,
+small {
+  font-size: .75rem;
 }
 
 pre, 
@@ -439,6 +446,11 @@ hr {
     margin: 0;
 }
 
+.right {
+    display: block;
+    float: right;
+}
+
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
@@ -469,8 +481,6 @@ hr {
 
 /* Working... */
 footer {
-    color: #aaa;
-    margin-top: 2em; /* remove; only use margin-bottom */
     overflow: hidden;
 }
 

@@ -12,3 +12,12 @@ layout: default
 <address>
     Comments? You can <a href="https://twitter.com/kotangentdev">tweet</a> or <a href="mailto:blog@briankoser.com">email</a>.
 </address>
+
+<nav>
+    {% if page.previous %}
+        <a class="left" rel="prev" href="{{ page.previous.url }}">« {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+        <a class="right" rel="next" href="{{ page.next.url }}">{{ page.next.title }} »</a>
+    {% endif %}
+</nav>
