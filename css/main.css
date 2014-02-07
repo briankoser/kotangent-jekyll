@@ -416,14 +416,6 @@ hr {
     background-color: #f8f8ff;
 }
 
-.logo {
-    bottom: 1.611rem;
-    font-size: 3.5rem;
-    left: -2rem;
-    position: absolute;
-}
-
-
 .media, .bd {
     overflow: hidden; 
 }
@@ -450,6 +442,27 @@ hr {
     display: block;
     float: right;
 }
+
+.site-logo {
+    bottom: 1.611rem;
+    font-size: 3.5rem;
+    left: -2rem;
+    position: absolute;
+}
+
+.site-title span {
+    display: inline-block;
+    letter-spacing: -1px;
+    position: relative;
+}
+.site-title .char2 { right: 2px; top: 1px; }
+.site-title .char3 { right: 4px; top: 1px; }
+.site-title .char4 { right: 3px; top: 1px; }
+.site-title .char5 { right: 4px; top: 1px; }
+.site-title .char6 { right: 5px; }
+.site-title .char7 { right: 6px; top: 1px; }
+.site-title .char8 { right: 8px; }
+.site-title .char9 { right: 8px; top: 1px; }
 
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
