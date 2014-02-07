@@ -460,9 +460,9 @@ hr {
 .site-title .char4 { right: 3px; top: 1px; }
 .site-title .char5 { right: 4px; top: 1px; }
 .site-title .char6 { right: 5px; }
-.site-title .char7 { right: 6px; top: 1px; }
-.site-title .char8 { right: 8px; }
-.site-title .char9 { right: 8px; top: 1px; }
+.site-title .char7 { right: 5px; top: 1px; font-size: 3.55rem; }
+.site-title .char8 { right: 7px; }
+.site-title .char9 { right: 7px; top: 1px; }
 
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
