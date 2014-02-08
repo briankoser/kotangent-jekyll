@@ -55,7 +55,8 @@ dd,
 fieldset,
 table,
 hr,
-.media {
+.media,
+.shrug {
     margin: 0 0 1.4rem 0;
 }
 
@@ -441,6 +442,10 @@ hr {
 .right {
     display: block;
     float: right;
+}
+
+.shrug {
+    font-size: 3.5rem;
 }
 
 .site-logo {
