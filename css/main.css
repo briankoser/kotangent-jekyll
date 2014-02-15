@@ -420,6 +420,10 @@ hr {
     float: right;
 }
 
+.font-style-normal {
+    font-style: normal;
+}
+
 .gist table {
     margin-bottom: 0;
 }
