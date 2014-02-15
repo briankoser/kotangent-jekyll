@@ -49,8 +49,7 @@ h3,
 h4,
 h5,
 h6,
-ul,
-ol,
+li,
 dd,
 fieldset,
 table,
@@ -210,6 +209,10 @@ ol ol {
 ol ol li::before {
     counter-increment: section;
     content: counters(section, ".") " ";
+}
+
+dd {
+    padding-left: 1rem;
 }
 
 
@@ -409,12 +412,24 @@ hr {
     padding-left: 0.5rem;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 .gist table {
     margin-bottom: 0;
 }
 
 .gist td {
     background-color: #f8f8ff;
+}
+
+.license {
+    text-align: right;
 }
 
 .media, .bd {
