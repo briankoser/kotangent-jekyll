@@ -67,7 +67,7 @@ header {
 
 header nav {
     margin-top: -0.333rem;
-    padding: .333rem .222rem;
+    padding: 0.333rem 0.222rem;
 }
 
 header h1 {
@@ -446,7 +446,7 @@ hr {
 }
 
 .post {
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
 }
 
 .post-date {
@@ -509,72 +509,3 @@ hr {
             font-feature-settings: 'lnum' 1;
     text-transform: uppercase;
 }
-
-
-
-
-
-
-/* Working... */
-footer {
-    overflow: hidden;
-}
-
-footer .contact {
-    float: left;
-    margin-right: 3em;
-}
-
-footer .contact a {
-    color: #8085c1;
-}
-
-footer .rss {
-    margin-top: 1.1em; /* remove; only use margin-bottom */
-    margin-right: -.2em;
-    float: right;
-}
-
-footer .rss img {
-    border: 0;
-}
-
-header a.extra {
-    color: #aaa;
-    margin-left: 1em;
-}
-
-header a.extra:hover {
-    color: #000;
-}
-
-
-
-/******************************************************************************
-  HOME
-******************************************************************************/
-ul.posts {
-    list-style-type: none;
-    margin-bottom: 2em;
-}
-
-ul.posts li {
-    line-height: 1.75em;
-}
-
-ul.posts span {
-    color: #aaa;
-    font-size: 80%;
-}
-
-
-
-/******************************************************************************
-  POSTS
-******************************************************************************/
-
-
-.post ul, .post ol {
-    margin-left: 1.35em;
-}
-
