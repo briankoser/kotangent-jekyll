@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<h1 class="post-title">{{ page.title }}</h1>
-<p class="author">by Brian Koser</p>
-<p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+<article class="post hyphenate">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="author">by Brian Koser</p>
+    <p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
 
-<div class="post hyphenate">
     {{ content }}
-</div>
+</article>
 
 <address>
     Comments? You can <a href="https://twitter.com/kotangentdev">tweet</a> or <a href="mailto:blog@briankoser.com">email</a>.
