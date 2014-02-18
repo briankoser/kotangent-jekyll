@@ -2,22 +2,26 @@
 layout: default
 ---
 <article class="post hyphenate">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="author">by Brian Koser</p>
-    <p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+    <header>
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="author">by Brian Koser</p>
+        <p class="post-date">{{ page.date | date: "%Y-%m-%d" }}</p>
+    </header>
 
     {{ content }}
 </article>
 
-<address>
-    Comments? You can <a href="https://twitter.com/kotangentdev">tweet</a> or <a href="mailto:blog@briankoser.com">email</a>.
-</address>
-
-<nav>
-    {% if page.previous %}
-        <a class="left" rel="prev" href="{{ page.previous.url }}">« {{ page.previous.title }}</a>
-    {% endif %}
-    {% if page.next %}
-        <a class="right" rel="next" href="{{ page.next.url }}">{{ page.next.title }} »</a>
-    {% endif %}
-</nav>
+<footer>
+    <address>
+        Comments? You can <a href="https://twitter.com/kotangentdev">tweet</a> or <a href="mailto:blog@briankoser.com">email</a>.
+    </address>
+    
+    <nav>
+        {% if page.previous %}
+            <a class="left" rel="prev" href="{{ page.previous.url }}">« {{ page.previous.title }}</a>
+        {% endif %}
+        {% if page.next %}
+            <a class="right" rel="next" href="{{ page.next.url }}">{{ page.next.title }} »</a>
+        {% endif %}
+    </nav>
+</footer>
