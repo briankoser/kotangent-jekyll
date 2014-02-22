@@ -178,26 +178,12 @@ h2 {
 *********
   ul, ol, li, dl, dt, dd, menu, menuitem
 ******************************************************************************/
-ul {
-    padding-left: 15px;
-}
-
 ul li {
-    list-style: none;
+    list-style-type: square;
 }
 
-ul li::before {
-    color: #006b9f;
-    content: '\25A0'; /* Unicode black square */
-    display: block;
-    font-size: .67em;
-    left: -1em;
-    max-height: 0;
-    position: relative;
-}
-
-ul ul li::before {
-    content: '\25A1'; /* Unicode white square */
+ul ul li {
+    list-style-type: circle;
 }
 
 ol {
