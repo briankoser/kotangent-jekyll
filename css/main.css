@@ -107,7 +107,12 @@ main {
 
 main nav,
 small {
-  font-size: .75rem;
+    font-size: .75rem;
+}
+
+main h1 {
+    font-size: 19px;
+    margin-bottom: 6.2px;
 }
 
 pre, 
