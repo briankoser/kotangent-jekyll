@@ -36,7 +36,6 @@ body {
     margin: 0 auto 1.4em;
 }
 
-header,
 main,
 p,
 pre,
@@ -94,7 +93,7 @@ header a:hover {
 /*nav a {color: #333;text-decoration: none;display: inline-block;}*/
 
 nav ul {
-    margin: 0.5rem 0.25rem;
+    margin: 0.5rem 0 0.25rem 0;
     padding: 0;
 }
 
@@ -462,7 +461,7 @@ hr {
 }
 
 .site-logo {
-    bottom: 1.611rem;
+    bottom: 2.889rem;
     font-size: 3.5rem;
     left: -2rem;
     position: absolute;
@@ -473,14 +472,14 @@ hr {
     letter-spacing: -1px;
     position: relative;
 }
-.site-title .char2 { right: 2px; top: 1px; }
-.site-title .char3 { right: 4px; top: 1px; }
-.site-title .char4 { right: 3px; top: 1px; }
-.site-title .char5 { right: 4px; top: 1px; }
-.site-title .char6 { right: 5px; }
-.site-title .char7 { right: 6px; top: 1px; font-size: 3.55rem; }
-.site-title .char8 { right: 8px; }
-.site-title .char9 { right: 8px; top: 1px; }
+.site-title .char2 { right: 0.111rem; top: 0.056rem; }
+.site-title .char3 { right: 0.278rem; top: 0.056rem; }
+.site-title .char4 { right: 0.167rem; top: 0.056rem; }
+.site-title .char5 { right: 0.222rem; top: 0.056rem; }
+.site-title .char6 { right: 0.278rem; }
+.site-title .char7 { right: 0.333rem; top: 0.056rem; font-size: 3.55rem; }
+.site-title .char8 { right: 0.444rem; }
+.site-title .char9 { right: 0.444rem; top: 0.056rem; }
 
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
