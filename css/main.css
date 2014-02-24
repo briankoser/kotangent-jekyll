@@ -112,7 +112,7 @@ main {
 
 main nav,
 small {
-    font-size: .75rem;
+    font-size: 0.75rem;
 }
 
 main h1 {
@@ -251,7 +251,7 @@ table {
 th,
 td {
     border: 1px solid #333;
-    padding: .25rem;
+    padding: 0.25rem;
 }
 
 th {
@@ -344,7 +344,7 @@ code,
 var {
     background-color: #f8f8ff;
     border: 1px solid #ddd;
-    padding: 0 .4em;
+    padding: 0 0.4em;
 }
 
 kbd {
@@ -357,8 +357,8 @@ kbd {
     font-size: 12px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
     line-height: 1.4;
-    margin: 0 .1em;
-    padding: .1em .6em;
+    margin: 0 0.1em;
+    padding: 0.1em 0.6em;
     text-shadow: 0 1px 0 #fff;
     white-space: nowrap;
 }
@@ -495,7 +495,7 @@ hr {
 }
 
 .top-border {
-    border-top: .2rem solid #333;
+    border-top: 0.2rem solid #333;
 }
 
 .uppercase {
