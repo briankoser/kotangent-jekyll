@@ -67,7 +67,6 @@ header {
 
 header nav {
     margin-top: -0.333rem;
-    padding: 0.333rem 0.222rem;
 }
 
 header h1 {
@@ -95,7 +94,13 @@ header a:hover {
 /*nav a {color: #333;text-decoration: none;display: inline-block;}*/
 
 nav ul {
-    list-style: none;
+    margin: 0.5rem 0.25rem;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
 }
 
 main {
