@@ -8,6 +8,6 @@ title: Kotangent
 {% for post in site.posts %}
     <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p class="post-date">{{ post.date | date: "%Y-%m-%d" }}</p>
-    <p class="post-excerpt">{{ post.excerpt | strip_html }}… (<a href="{{ post.url }}">Read More</a>)</p>
+    <p class="post-excerpt">{{ post.excerpt | strip_html }}… (<a href="{{ post.url }}">more</a>)</p>
 {% endfor %}
 </ul>

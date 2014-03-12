@@ -54,6 +54,7 @@ fieldset,
 table,
 hr,
 .media,
+.post header,
 .shrug {
     margin: 0 0 1.4rem 0;
 }
@@ -436,13 +437,15 @@ hr {
     margin-bottom: 2.8rem;
 }
 
+.post-date,
+.post-title {
+    margin: 0;
+}
+
 .post-date {
     color: #aaa;
 }
 
-.post-title {
-    margin: 0;
-}
 
 .right {
     display: block;
