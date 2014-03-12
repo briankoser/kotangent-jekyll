@@ -125,10 +125,6 @@ pre code {
     width: 100%;
 }
 
-blockquote {
-    margin: 1.4rem;
-}
-
 blockquote,
 q {
     quotes: none;
@@ -136,6 +132,14 @@ q {
 
 blockquote mark, 
 q mark {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 1.4rem;
+}
+
+figcaption {
     font-style: italic;
 }
 
