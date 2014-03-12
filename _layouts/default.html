@@ -38,10 +38,15 @@
     <script src="/javascript/jquery-2.1.0.min.js"></script>
     <script src="/javascript/jquery.lettering-0.6.1.min.js"></script>
     <script src="/javascript/hyphenate.js"></script>
+    <script src="http://www.blueletterbible.org/scripts/blbToolTip/BLB_ScriptTagger-min.js" type="text/javascript"></script>
     <script>
         $(document).ready(function() {
             $(".site-title").lettering();
-          });
+        });
+        
+        // Blue Letter Bible options (http://www.blueletterbible.org/webtools/BLB_ScriptTagger.cfm)
+        BLB.Tagger.Translation = 'KJV';
+        BLB.Tagger.HyperLinks = 'hover';
     </script>
 </head>
 <body>
