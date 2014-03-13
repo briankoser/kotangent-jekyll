@@ -396,6 +396,11 @@ hr {
     display: none; /* todo: remove when I figure out how Google authorship stuff works */
 }
 
+.bd,
+.media {
+    overflow: hidden; 
+}
+
 .edit-block {
     border-left: 0.5rem solid;
     display: block;
@@ -427,14 +432,15 @@ hr {
     text-align: right;
 }
 
-.media, .bd {
-    overflow: hidden; 
-}
-
 .media img {
     display: block;
     float: left;
     margin-right: 10px;
+}
+
+.no-margin,
+.no-margin li {
+    margin: 0;
 }
 
 .post {
