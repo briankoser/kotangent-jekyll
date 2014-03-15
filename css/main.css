@@ -75,9 +75,8 @@ header h1 {
     margin-bottom: -1.222rem;
 }
 
-header a,
-.site-title {
-    color: #006b9f;
+header a {
+    color: #000;
     font-weight: bold;
     text-decoration: none;
 }
@@ -94,6 +93,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
+    padding-right: 0.75em;
 }
 
 main {
@@ -428,6 +428,11 @@ hr {
     background-color: #f8f8ff;
 }
 
+.icon {
+    height: 1em;
+    vertical-align: sub;
+}
+
 .license {
     text-align: right;
 }
@@ -471,6 +476,11 @@ hr {
     font-size: 3.5rem;
     left: -2rem;
     position: absolute;
+}
+
+.site-title {
+    color: #006b9f;
+    font-weight: bold;
 }
 
 .site-title span {

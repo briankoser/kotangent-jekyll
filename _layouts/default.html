@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -38,7 +38,8 @@
     <script src="/javascript/jquery-2.1.0.min.js"></script>
     <script src="/javascript/jquery.lettering-0.6.1.min.js"></script>
     <script src="/javascript/hyphenate.js"></script>
-    <script src="http://www.blueletterbible.org/scripts/blbToolTip/BLB_ScriptTagger-min.js" type="text/javascript"></script>
+    <script src="http://www.blueletterbible.org/scripts/blbToolTip/BLB_ScriptTagger-min.js"></script>
+    
     <script>
         $(document).ready(function() {
             $(".site-title").lettering();
@@ -55,10 +56,30 @@
         <h1 class="site-title">{{ site.name }}</h1>
         <nav class="top-border">
             <ul>
-                <li><a href="/blog/">Blog</a> | </li>
-                <li><a href="/contact/">Contact</a> | </li>
-                <li><a href="/about/">About</a> | </li>
-                <li><a href="/blog/feed.atom">RSS</a></li>
+                <li>
+                    <a href="/blog/">
+                        <object type="image/svg+xml" data="/images/icomoon/pen.svg" class="icon"></object>
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact/">
+                        <object type="image/svg+xml" data="/images/icomoon/envelope.svg" class="icon"></object>
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="/about/">
+                        <object type="image/svg+xml" data="/images/icomoon/user.svg" class="icon"></object>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/blog/feed.atom">
+                        <object type="image/svg+xml" data="/images/icomoon/feed.svg" class="icon"></object>
+                        RSS
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
