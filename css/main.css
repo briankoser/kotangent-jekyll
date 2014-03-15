@@ -345,9 +345,12 @@ var,
 
 code,
 var {
-    background-color: #f8f8ff;
-    border: 1px solid #ddd;
-    padding: 0 0.4em;
+    background-color: rgba(243,74,83,0.04);
+    border: 1px solid #006b9f;
+    border-radius: 2px;
+    color: #006b9f;
+    margin: 0 0.15em;
+    padding: 0 0.3em;
 }
 
 kbd {
