@@ -113,6 +113,12 @@ main h1 {
     margin-bottom: 6.2px;
 }
 
+p a {
+    margin: -0.2em -0.2em -0.111px -0.2em;
+    padding: 0.2em 0.2em 0.111em 0.2em;
+    position: relative;
+}
+
 pre, 
 samp { 
     font-family: monospace, sans-serif; 
