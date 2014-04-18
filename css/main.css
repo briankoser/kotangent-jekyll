@@ -438,6 +438,7 @@ hr {
 }
 
 .icon {
+display: none; /* temporary fix for icon display bug */
     height: 1em;
     vertical-align: sub;
 }
