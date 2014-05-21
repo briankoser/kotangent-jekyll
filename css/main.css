@@ -276,6 +276,18 @@ td {
   cite, data, progress, time, meter, code, var, samp, kbd, keygen, bdi, bdo, 
   ruby, rt, rp, span
 ******************************************************************************/
+a {
+    color: #006b9f;
+    text-decoration: none;
+    border-bottom: solid 1px #006b9f;
+}
+
+a:hover {
+    -webkit-transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
+            transition: border-bottom-width 300ms cubic-bezier(1, 0, 0, 1);
+    border-bottom-width: 3px;
+}
+
 strong {
     font-weight: bold;
 }
