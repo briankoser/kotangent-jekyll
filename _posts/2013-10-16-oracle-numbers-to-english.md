@@ -14,9 +14,9 @@ The magic that makes it all happen is the [Julian date](http://en.wikipedia.org/
 
 This code converts the number to a Julian date (format specifier “J”) then to a string representing the Julian date, which is the number again.
 
-Why convert the number to a date before converting to a string? Well, `to_char(string, format)` doesn’t accept the format specifiers we’ll need to use; the date version, `to_char(date, format)`, does accept those specifiers, so we first convert to a date before converting to string. And in this case Julian dates are easier to work with because they are stored as a number of days since January 1, 4712 B.C. This allows us to easily go from number to date to string, as you saw above.
+Why convert the number to a date before converting to a string? Well, `to_char(string, format)` doesn’t accept the format specifiers we’ll need to use; the date version, `to_char(date, format)`, does accept those specifiers, so we first convert to a date before converting to string. And in this case Julian dates are easier to work with because they are stored as a number of days since January 1, 4712 <abbr>BC</abbr>. This allows us to easily go from number to date to string, as you saw above.
 
-Caveat: for a number to be converted to a Julian date it will need to be between 1 and 5,373,484 (the highest valid number will have increased by the time you read this). The highest valid number is the number of days since January 1, 4712 B.C. If you need to handle 0, negatives, decimals, or numbers larger than about 5 million, you’ll need to write additional code.
+Caveat: for a number to be converted to a Julian date it will need to be between 1 and 5,373,484 (the highest valid number will have increased by the time you read this). The highest valid number is the number of days since January 1, 4712 <abbr>BC</abbr>. If you need to handle 0, negatives, decimals, or numbers larger than about 5 million, you’ll need to write additional code.
 
 Once we have our date, we’ll convert it to the string we want:
 
