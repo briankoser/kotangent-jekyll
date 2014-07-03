@@ -1,4 +1,4 @@
-﻿/*****************************************************************************
+/*****************************************************************************
   ALL
 ******************************
   *, @viewport
@@ -26,9 +26,11 @@
 html {
     color: #444;
     font: 18px/1.4 'Source Sans Pro', Calibri, sans-serif;
-    -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
-       -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
-            font-feature-settings: 'dlig' 0, 'kern', 'liga', 'onum', 'pnum';
+    /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
+      Turn off all other ligatures, tabular, lining numerals, and alternates */
+    -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+       -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+            font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
 }
 
 body {
@@ -119,6 +121,17 @@ p a {
     position: relative;
 }
 
+/* Turn off kerning and ligatures,
+   Turn on lining, tabular numerals, slashed zero */
+pre, 
+code,
+samp,
+kbd{
+  -webkit-font-feature-settings: 'dlig' 0, 'kern' 0, 'liga' 0, 'lnum' 1, 'onum' 0, 'pnum' 0, 'tnum' 1, 'zero' 1;
+     -moz-font-feature-settings: 'dlig' 0, 'kern' 0, 'liga' 0, 'lnum' 1, 'onum' 0, 'pnum' 0, 'tnum' 1, 'zero' 1;
+          font-feature-settings: 'dlig' 0, 'kern' 0, 'liga' 0, 'lnum' 1, 'onum' 0, 'pnum' 0, 'tnum' 1, 'zero' 1;
+}
+
 pre, 
 samp { 
     font-family: monospace, sans-serif; 
@@ -167,6 +180,15 @@ h4,
 h5, 
 h6 {
     font-weight: bold;
+}
+
+/* Turn on discretionary ligatures for larger headings */
+h1,
+h2,
+h3 {
+    -webkit-font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+       -moz-font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+            font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
 }
 
 h1 {
@@ -236,6 +258,20 @@ select {
     vertical-align: middle;
 }
 
+/* Turn on lining numerals */
+input[type='color'], 
+input[type='date'], 
+input[type='datetime'], 
+input[type='datetime-local'], 
+input[type='number'], 
+input[type='range'], 
+input[type='tel'], 
+input[type='week'] {
+    -webkit-font-feature-settings: 'dlig', 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum' 0, 'zero';
+       -moz-font-feature-settings: 'dlig', 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum' 0, 'zero';
+            font-feature-settings: 'dlig', 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum' 0, 'zero';
+}
+
 textarea {
     resize: vertical;
 }
@@ -249,6 +285,16 @@ textarea {
 ******************************************************************************/
 table {
     border-style: hidden;
+    -webkit-font-feature-settings: 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum', 'zero';
+       -moz-font-feature-settings: 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum', 'zero';
+            font-feature-settings: 'kern' 0, 'liga', 'lnum', 'onum' 0, 'pnum' 0, 'tnum', 'zero';
+}
+
+table thead, 
+table tfoot {
+    -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+       -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
+            font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
 }
 
 th,
@@ -262,12 +308,6 @@ th {
     color: #fff;
 }
 
-td {
-    background-color: #eee;
-    -webkit-font-feature-settings: 'tnum';
-       -moz-font-feature-settings: 'tnum';
-            font-feature-settings: 'tnum';
-}
 
 /******************************************************************************
   PHRASING
@@ -295,6 +335,18 @@ strong {
 em {
     font-style: normal;
     font-weight: bold;
+}
+
+sup {
+    -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'sups', 'tnum' 0;
+       -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'sups', 'tnum' 0;
+            font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'sups', 'tnum' 0;
+}
+
+sub {
+    -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'subs', 'tnum' 0;
+       -moz-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'subs', 'tnum' 0;
+            font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'subs', 'tnum' 0;
 }
 
 abbr {
