@@ -556,14 +556,15 @@ display: none; /* temporary fix for icon display bug */
     letter-spacing: -1px;
     position: relative;
 }
-.site-title .char2 { right: 0.111rem; top: 0.056rem; }
-.site-title .char3 { right: 0.278rem; top: 0.056rem; }
-.site-title .char4 { right: 0.167rem; top: 0.056rem; }
-.site-title .char5 { right: 0.222rem; top: 0.056rem; }
-.site-title .char6 { right: 0.278rem; }
-.site-title .char7 { right: 0.333rem; top: 0.056rem; font-size: 3.55rem; }
-.site-title .char8 { right: 0.444rem; }
-.site-title .char9 { right: 0.444rem; top: 0.056rem; }
+
+.site-title .char2 { right: 3px; top: 1px; }
+.site-title .char3 { right: 5px; top: 1px; }
+.site-title .char4 { right: 6px; top: 1px; }
+.site-title .char5 { right: 8px; top: 1px; }
+.site-title .char6 { right: 10px; }
+.site-title .char7 { right: 12px; top: 1px; font-size: 64px; }
+.site-title .char8 { right: 13px; }
+.site-title .char9 { right: 13px; top: 1px; }
 
 .small-caps {
     -webkit-font-feature-settings: 'smcp';
