@@ -11,9 +11,11 @@ permalink: '/blog/:title/'
 
 exclude: ['Kotangent.sln', 'Kotangent.v11.suo', 'LICENSE.txt', 'Rakefile', 'README.md']
 
-markdown: 'redcarpet'
+markdown: 'kramdown'
+# kramdown:
+  # input: GFM
 
-pygments: false
+highlighter: false
 
 ftp_host: 'ftp.briankoser.com'
 ftp_dir: '/'
