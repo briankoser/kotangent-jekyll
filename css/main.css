@@ -487,6 +487,12 @@ hr {
     font-style: normal;
 }
 
+.fraction {
+  -webkit-font-feature-settings: "frac" 1;
+     -moz-font-feature-settings: "frac" 1;
+          font-feature-settings: "frac" 1;
+}
+
 .gist table {
     margin-bottom: 0;
 }
