@@ -4,7 +4,9 @@ title:  "12 Reasons I Hate SQL Developer"
 tags: programming oracle
 ---
 
-I don’t like SQL Developer. It’s hard to like a <abbr>GUI</abbr> with so many usability problems. The first version was released in 2006, but the interface feels much older. It’s certainly not bug-free, let alone polished. 
+<ins datetime="2015-07-25">I haven’t worked in Oracle for a year now, and I know many of these problems were fixed in later versions. [Jeff Smith](http://www.thatjeffsmith.com/about/) sent me a very nice email and offered to help me work through any remaining issues; if I still worked in Oracle I would have taken him up on it.</ins>
+
+I don’t like Oracle’s SQL Developer. It’s hard to like a <abbr>GUI</abbr> with so many usability problems. The first version was released in 2006, but the interface feels much older. It’s certainly not bug-free, let alone polished. 
 
 I’m told that it’s better than our office’s previous Oracle <abbr>GUI</abbr> (possibly Oracle Enterprise Manager?), and apparently Toad has it’s own problems. And hey, it’s free! At such times I imagine someone saying, “I know you don’t like getting punched in the gut, but it’s a lot better than back in the day when we got punched in the face. And hey, it’s a free punch in the gut!” 
 
