@@ -7,7 +7,7 @@ tags: web browsers
 Firefox 1.5 is the first browser I specifically remember using (discounting AOL, which was a little more than a browser). Back then Firefox users were hip, the cutting edge. We’ve got tabs, man, so you can visit *multiple web pages in one window!* Eventually Firefox got bloated, taking up too much memory, and my brand loyalty only lasted until about six months after the release of Google Chrome.
 
 <figure>
-    <img alt="A chubby prairie dog" src="/images/bloated.png">
+    <img alt="A chubby prairie dog" src="/images/bloated.jpg">
     <figcaption>The definition of bloated</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ So I’m open to using another browser, but I do have some prerequisites for swi
 This should really go without saying, and all major browsers do fall into this category. Evergreen browsers update frequently & incrementally, instead waiting years in-between releases, and then needing to uninstall the old version and install the new version from scratch. Barbaric.
 
 <figure>
-    <img alt="An old photograph of two men talking" src="/images/versailles.png">
+    <img alt="An old photograph of two men talking" src="/images/versailles.jpg">
     <figcaption>“I installed the latest version of Netscape Navigator last fortnight!”</figcaption>
 </figure>
 
