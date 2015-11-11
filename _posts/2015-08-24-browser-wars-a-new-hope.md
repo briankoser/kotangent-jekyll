@@ -17,7 +17,7 @@ So I’m open to using another browser, but I do have some prerequisites for swi
 
 <ol>
 <li>Evergreen
-
+<br>
 This should really go without saying, and all major browsers do fall into this category. Evergreen browsers update frequently & incrementally, instead waiting years in-between releases, and then needing to uninstall the old version and install the new version from scratch. Barbaric.
 
 <figure>
@@ -26,29 +26,35 @@ This should really go without saying, and all major browsers do fall into this c
 </figure>
 
 With as quickly as things move in web land, we need browsers that stay up to date.
+</li>
 
 <li>Sync
-
+<br>
 I want to use the same browser at home and at work. I want to bookmark an article at work and read it at home. I want to search my entire browsing history, not just my history in that location. And I don't want to install extensions separately on each different computer I use (although if I disable an addon I don’t want that synced; I don’t need my Chromecast extension at work for example). This leads right into…
+</li>
 
 <li>Mobile
-
+<br>
 It makes sense to use the same browser on desktop and mobile, but I don’t have to, as long as I can still sync bookmarks between desktop and mobile. Right now I’m on Android, so it has to work well there.
+</li>
 
 <li>Dev tools
-
+<br>
 On desktop I need web developer tools. Partly for work. Partly for developing personal sites, like this one. Partly for when I come across an interesting feature or font and want to look under the hood.
+</li>
 
 <li>Ad blocker
-
+<br>
 I disable ad blocking for sites that I like, and that ask nicely. But for sites I don’t know, or don’t trust, or don’t like, or that don’t ask, ads are gonna be blocked.
+</li>
 
-<li>KeePass
-
+<li markdown="span">KeePass
+<br>
 My one essential extension. [KeePass](http://keepass.info/) is a password storage app that I love. However, I love it less each time I have to open the application, log in, search for the website, copy the username, paste it into the browser, copy the password, then paste *it* into the browser. Much nicer to have it automatically fill in credentials ([chromeIPass](http://keepass.info/plugins.html#chromeipass)). On mobile, it would be nice to remove as many of the above steps as possible ([KeePass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=en) + Google Chrome Mobile is currently the best solution on Android).
+</li>
 
 <li>Site search from the address bar
-
+<br>
 I can’t remember the last time I had to use the old Google trick of prepending "site:" to a search to get results from a specific website. I love being able to search sites from the address bar.
 
 <figure>
