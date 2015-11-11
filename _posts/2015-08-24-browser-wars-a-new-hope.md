@@ -64,4 +64,4 @@ I can’t remember the last time I had to use the old Google trick of prepending
 </li>
 </ol>
 
-I don’t think these are unreasonable requests. I’m willing to give everyone a shot, and see who meets all seven requirements. Except Safari for Windows. Not gonna do it.
+I don’t think these are unreasonable requests. I’m willing to give everyone a shot, and see who meets all seven requirements. Except Safari for Windows. Not gonna do it. ∎

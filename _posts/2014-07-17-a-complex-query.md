@@ -119,4 +119,4 @@ SELECT nvl(overrides.eventname, offsets.eventname) AS eventname, offsets.display
 
 There is an overrides table which allows any calculated date to be overwritten by entering a row into the table. I’m doing a `FULL OUTER JOIN` so that the override will create an event even if it isn’t set up in `evetntoffsets`.
 
-Phwew! And this is actually a simplified version of the query because there were some business rules I didn’t want to get into, just because I wanted to focus more on the <abbr>SQL</abbr>. Really though, when you break it down, there aren’t any concepts that are too advanced. The difficulty comes in understanding the query as a whole.
+Phwew! And this is actually a simplified version of the query because there were some business rules I didn’t want to get into, just because I wanted to focus more on the <abbr>SQL</abbr>. Really though, when you break it down, there aren’t any concepts that are too advanced. The difficulty comes in understanding the query as a whole. ∎

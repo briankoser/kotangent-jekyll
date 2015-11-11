@@ -17,4 +17,4 @@ So I was on Stack Overflow looking up information on C# verbatim string literals
     <figcaption>Stack Overflow question and answers</figcaption>
 </figure>
 
-I thought, *that’s rare to see Jon Skeet as the number two answer on a question, kudos to Richard Everett*. And then I clicked the link in Richard’s answer, and realized it linked to a book. An actual printed book. Authored by Jon Skeet.
+I thought, *that’s rare to see Jon Skeet as the number two answer on a question, kudos to Richard Everett*. And then I clicked the link in Richard’s answer, and realized it linked to a book. An actual printed book. Authored by Jon Skeet. ∎

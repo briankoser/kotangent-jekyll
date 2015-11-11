@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top Ten Punctuation"
+title: "Top Ten Punctuation Marks"
 tags: typography english
 ---
 
@@ -36,15 +36,15 @@ So the name “ampersand” comes from when “&” was included at the end of t
 
 ## <span class="shrug">*</span> Asterisk
 
-Some refer to the asterisk as the “splat”, which, though lacking respect, is still preferrable to “aster<strong>ick</strong>”. (To those “asterick”-sayers: please note the second “S”. And please note my disapproving frown.) My favorite asterisk is the one in the typeface Source Code Pro: <span style="font-family:'Source Code Pro'">*</span> I don’t know why, but it makes me smile every time.
+Some refer to the asterisk as the “splat”, which, though lacking respect, is still preferrable to “aster<strong>ick</strong>”. (To those “asterick”-sayers: please note the second “S”. And please note my stern disapproval.) My favorite asterisk is the one in the typeface Source Code Pro: <span style="font-family:'Source Code Pro'">*</span> I don’t know why, but it makes me smile every time.
 
 ## <span class="shrug">»</span> Guillemet
 
-My freshman English teacher mentioned that she used this symbol when taking notes to indicate a definition. That advice is the single-most life-changing advice—related to note-taking—I have ever received (thanks Mrs. Twigg!). Just one reason the dashing guillemet deserves a more prominent spot in our language.
+My college English 101 professor mentioned that she used this symbol when taking notes to indicate a definition. That advice is the single-most life-changing advice—related to note-taking—I have ever received (thanks Mrs. Twigg!). Just one reason the dashing guillemet deserves a more prominent spot in our language.
 
 ## <span class="shrug">¢</span> Cent sign
 
-What makes the cent sign so beautiful? Is it the sublime combination of curve and straight? The swelling of nostalgia for the days of newspapers and horse-drawn carriages and top hats? The reminder of the Alger-esque rags-to-riches tales which have inspired our nation since its founding? Whatever the reason, it occupies a special place in my heart.
+What makes the cent sign so beautiful? Is it the sublime combination of curve and straight? The swelling of nostalgia for the days of newspapers and horse-drawn carriages and top hats? The reminder of the Horatio Alger-esque rags-to-riches tales which have inspired our nation since its founding? Whatever the reason, it occupies a special place in my heart.
 
 ## <span class="shrug">§</span> Section sign
 
@@ -52,7 +52,7 @@ It’s a crime that the section sign is not seen in more literature. We’ve sac
 
 ## <span class="shrug">¶</span> Pilcrow
 
-Ah, the pilcrow; know today chiefly as Microsoft Word’s formatting marks icon. Best named of all punctuation. But mere words will not suffice, so I give to you a montage of pilcrows.
+Ah, the pilcrow; know today chiefly as Microsoft Word’s formatting marks icon. Best named of all punctuation. But mere words will not suffice, so I give to you a montage of pilcrows:
 
 <div style="font-size:2rem;">
     <span class="font-open-sans visually-hidden">¶</span>
@@ -79,10 +79,10 @@ Ah, the pilcrow; know today chiefly as Microsoft Word’s formatting marks icon.
 
 ## <span class="shrug">?</span> Question mark
 
-Unlike its workaday brother the period, the question mark does not wear out its welcome with overly frequent visits. Unlike its overly-dramatic sister the exclamation mark, it does not stay out all night partying and then bang around the house obnoxiously when it is home. The question mark is the cat that you almost forget is living with you; it occupies that happy medium, familiar but not constantly present.
+Unlike its workaday brother the period, the question mark does not wear out its welcome with overly-frequent visits. Unlike its melodramatic sister the exclamation mark, it does not stay out all night partying and then bang around the house obnoxiously when arriving home. The question mark is the cat that you almost forget is living with you; it occupies a happy medium, familiar but not constantly present.
 
 Its functional precision is matched by its form. The curves of the question mark speak of mystery, of the great unknown, of the riddles we ponder on stormy nights. The question mark bypasses the mind and the heart, and speaks directly to the soul. It stands alone, not in the dusty library of Tedium or atop the mountain of Narcissism, but in the grey alleyway of Ambiguity, dimly lit by the flickering lamplight of Truth. The question mark is not a king or a fool or a workman. In the Kingdom of Punctuation, the question mark is the grand vizier, the power behind the throne, content to rule from the shadows.
 
-The question mark works its craft with poise and panache. What more could you ask from a bit of punctuation?
+The question mark works its craft with poise and panache. What more could you ask from a bit of punctuation? ∎
 
 *Well, [almost never](http://www.youtube.com/results?search_query=victor+borge+phonetic+punctuation).

@@ -43,4 +43,4 @@ Still trying to get my head wrapped around DI.
 <li markdown="span"> [Our password hashing has no clothes](http://www.troyhunt.com/2012/06/our-password-hashing-has-no-clothes.html)
 <br>
 Am I the only one that didn’t know that SHA hashing wasn’t good enough any more? <span class="emoticon">:(</span>
-</li>
+</li> ∎
