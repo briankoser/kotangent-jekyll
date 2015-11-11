@@ -25,7 +25,7 @@
 ******************************************************************************/
 html {
     color: #444;
-    font: 18px/1.4 'Source Sans Pro', Calibri, sans-serif;
+    font: 26px/1.4 'Source Serif Pro', Georgia, serif;
     /*Turn on kerning, standard ligatures, and proportional, oldstyle numerals
       Turn off all other ligatures, tabular, lining numerals, and alternates */
     -webkit-font-feature-settings: 'dlig' 0, 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
@@ -63,12 +63,13 @@ hr,
 
 header {
     font-weight: bold;
+    margin-top: 1rem;
     position: relative;
     vertical-align: text-top;
 }
 
 header nav {
-    margin-top: -0.333rem;
+    margin-top: -1.333rem;
 }
 
 header h1 {
@@ -110,8 +111,9 @@ small {
     font-size: 0.75rem;
 }
 
+/*todo:*/
 main h1 {
-    font-size: 19px;
+    font-size: 31px; 
     margin-bottom: 6.2px;
 }
 
@@ -197,13 +199,15 @@ h3 {
             font-feature-settings: 'dlig', 'kern', 'liga', 'lnum' 0, 'onum', 'pnum', 'tnum' 0;
 }
 
+/*todo*/
 h1 {
     font-size: 19px;
     margin-bottom: 6.2px;
 }
 
+/*todo*/
 h2 {
-    font-size: 18.5px;
+    font-size: 27px;
     margin-bottom: 6.7px;
 }
 
@@ -393,6 +397,7 @@ ins.edit-block {
     margin-bottom: 1.4rem;
 }
 
+/*todo*/
 code,
 var,
 .line-numbers,
@@ -401,6 +406,7 @@ var,
     font: 14px/1.3 'Source Code Pro', Consolas, monospace !important;
 }
 
+/*todo*/
 code,
 var {
     background-color: rgba(0,107,159,0.04);
@@ -546,7 +552,7 @@ display: none; /* temporary fix for icon display bug */
 }
 
 .site-logo {
-    bottom: 2.889rem;
+    bottom: 1.95rem;
     font-size: 3.5rem;
     left: -2rem;
     position: absolute;
@@ -554,6 +560,7 @@ display: none; /* temporary fix for icon display bug */
 
 .site-title {
     color: #006b9f;
+    font-family: 'Source Sans Pro', Calibri, sans-serif;
     font-weight: bold;
 }
 
@@ -585,7 +592,7 @@ display: none; /* temporary fix for icon display bug */
 }
 
 .top-border {
-    border-top: 0.2rem solid #333;
+    border-top: 0.2rem solid #006b9f;
 }
 
 .uppercase {
@@ -594,3 +601,25 @@ display: none; /* temporary fix for icon display bug */
             font-feature-settings: 'lnum' 1;
     text-transform: uppercase;
 }
+
+.font-open-sans {font-family: "Open Sans";}
+.font-roboto {font-family: "Roboto";}
+.font-lato {font-family: "Lato";}
+.font-oswald {font-family: "Oswald";}
+.font-source-sans-pro {font-family: "Source Sans Pro";}
+.font-source-serif-pro {font-family: "Source Serif Pro";}
+.font-lora {font-family: "Lora";}
+.font-montserrat {font-family: "Montserrat";}
+.font-pt-sans {font-family: "PT Sans";}
+.font-raleway {font-family: "Raleway";}
+.font-ubuntu {font-family: "Ubuntu";}
+.font-merriweather {font-family: "Merriweather";}
+.font-pt-serif {font-family: "PT Serif";}
+.font-bitter {font-family: "Bitter";}
+.font-poiret-one {font-family: "Poiret One";}
+.font-oxygen {font-family: "Oxygen";}
+.font-alegreya {font-family: "Alegreya";}
+.font-alfa-slab-one {font-family: "Alfa Slab One";}
+.font-alice {font-family: "Alice";}
+.font-alex-brush {font-family: "Alex Brush";}
+.font-varela-round {font-family: "Varela Round";}
