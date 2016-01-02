@@ -4,7 +4,7 @@ title: "Programming Punctuation Poem"
 tags: programming punctuation poetry
 ---
 
-I’ve been on somewhat of a punctuation kick lately, and it reminded me of a poem I saw once.
+I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:
 
 <pre>
 < > ! * ' ' #
