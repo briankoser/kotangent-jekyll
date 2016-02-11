@@ -152,11 +152,6 @@ pre code {
     width: 100%;
 }
 
-blockquote,
-q {
-    quotes: none;
-}
-
 blockquote mark, 
 q mark {
     font-style: italic;
@@ -164,6 +159,7 @@ q mark {
 
 blockquote {
     margin: 1.4rem;
+    quotes: none;
 }
 
 figcaption {
@@ -583,6 +579,10 @@ display: none; /* temporary fix for icon display bug */
     -webkit-font-feature-settings: 'smcp';
        -moz-font-feature-settings: 'smcp';
             font-feature-settings: 'smcp';
+}
+
+.styled-quote {
+    font-style: italic;
 }
 
 .terminal {
