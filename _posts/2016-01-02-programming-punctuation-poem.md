@@ -15,7 +15,7 @@ I’ve been on somewhat of a punctuation kick lately, and I remembered a poem:
 | { , , SYSTEM HALTED
 </pre>
 
-This doesn’t seem like much of a poem until you realize that programmers have different names for punctuation then English professors. When reading code it’s much easier to say “bang” than to say “exclamation point”, and programmers are nothing if not efficient (which is to say, we’re lazy). Here’s the translation: 
+This doesn’t seem like much of a poem until you realize that programmers have different names for punctuation than English professors. When reading code it’s much easier to say “bang” than to say “exclamation point”, and programmers are nothing if not efficient (which is to say, we’re lazy). Here’s the translation: 
 
 <pre>
 <    >    !    *     '    '    #
