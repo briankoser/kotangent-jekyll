@@ -1,0 +1,228 @@
+/*
+    Layout
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font: 20px Georgia, serif;
+    margin: 0;
+}
+
+header, 
+footer {
+    background-color: #222;
+    color: white;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    clear: left;
+    padding: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+main,
+section {
+    margin-top: 3em;
+}
+
+section {
+    min-height: 300px;
+}
+
+header > h1:last-of-type,
+main > div:last-of-type {
+    border-left: 10px solid #222;
+    margin-left: 2%;
+}
+
+div + h3 {
+    margin-top: 3em;
+}
+
+p {
+    max-width: 33em;
+}
+
+.col {
+    width: 47%;
+    float: left;
+    padding: 0 4%;
+}
+
+main .col {
+    padding-bottom: 3em;
+}
+
+
+
+/*
+    hyphens
+*/
+.b .hyphens {
+    hyphens: auto;
+}
+
+/*
+    color
+*/
+.b .color {
+    color: #222;
+}
+
+/*
+    line-height
+*/
+.b .line-height {
+    line-height: 1.4;
+}
+
+/*
+    selection
+*/
+.b .selection h2::-moz-selection,
+.b .selection p::-moz-selection {
+    background: salmon;
+    text-shadow: none;
+}
+
+.b .selection h2::-moz-selection,
+.b .selection p::selection {
+    background: salmon;
+    text-shadow: none;
+}
+
+/*
+    horizontal rule
+*/
+.b .rule hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+    vertical-align middle
+*/
+.middle img {
+    max-height: 10em;
+}
+
+.b .middle img {
+    vertical-align: middle;
+}
+
+/*
+    fieldset
+*/
+.b .fieldset fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    textarea resize
+*/
+.b .textarea textarea {
+    resize: vertical;
+}
+
+/*
+    clearfix classes
+*/
+.clearfixparent {
+    background-color: lightpink;
+    padding: 5px;
+}
+
+.clearfixchild {
+    float: left;
+    display: inline;
+    width: 220px;
+    height: 200px;
+    padding: 30px 0 0 0;
+    margin: 10px;
+    text-align: center;
+    background: lightblue;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+    visiblity classes
+*/
+.block {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.block-container div:nth-of-type(1) {
+    background-color: red;
+}
+
+.block-container div:nth-of-type(2) {
+    background-color: green;
+}
+
+.block-container div:nth-of-type(3) {
+    background-color: blue;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
