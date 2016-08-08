@@ -40,11 +40,11 @@ footer a {
 
 main,
 section {
-    margin-top: 3em;
+    margin-top: 100px;
 }
 
 section {
-    min-height: 300px;
+    min-height: 600px;
 }
 
 header > h1:last-of-type,
